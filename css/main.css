@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "helvetica", sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    background-color: white;
+    color: #333333;
+}
+
+form > ul {
+    list-style-type: none; <!-- sans puce -->
+    padding: 0;
+}
+
+form > ul > li {
+    margin-bottom: 1em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.2em; /* marge pour le bloc du dessous */
+    cursor: pointer; /* quand survol de la souris sur le titre, change en entrée */
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    background-color: #599a68;
+    border: none;
+    padding: 1em 2em;
+    transition: box-shadow .3s ease;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+input,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
